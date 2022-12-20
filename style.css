@@ -1,0 +1,112 @@
+body {
+    background-color: #abfffe;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .topnav {
+    background: #6ce1e1;
+    height: 60px;
+    padding: 5px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .menu {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 3px 0;
+  }
+  
+  .order {
+    width: 80%;
+    background: white;
+    height: 600px;
+    margin: 100px auto;
+    border-radius: 20px;
+    padding: 30px 90px;
+  }
+  
+  .order_select {
+    margin-top: 60px;
+  }
+  
+  select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    outline: 0;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background: white;
+    background-image: none;
+    flex: 1;
+    padding: 0 0.5em;
+    color: black;
+    cursor: pointer;
+    font-size: 1em;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  select::-ms-expand {
+    display: none;
+  }
+  
+  .select {
+    position: relative;
+    margin-top: 10px;
+    display: flex;
+    width: 500px;
+    height: 52px;
+    line-height: 3;
+    background: #5c6664;
+    overflow: hidden;
+    border-radius: 0.25em;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  
+  .select::after {
+    content: "\25BC";
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 1em;
+    background: #abfffe;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    pointer-events: none;
+    transition: 0.25s all ease;
+  }
+  .select:hover::after {
+    color: #23b499;
+  }
+  
+  .form {
+    margin-bottom: 40px;
+  }
+  
+  button :hover {
+    cursor: pointer;
+  }
+  
+  .continue {
+    width: 250px;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 125px;
+    background-color: #abfffe;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .continue a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: large;
+  }
